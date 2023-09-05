@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #ff1900;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+#code-editor {
+    width: 48%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #ff1900;
+}
+
+textarea {
+    width: 100%;
+    height: 400px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    resize: vertical;
+    font-size: 20px; 
+}
+
+button {
+    background-color: #ff1900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #951a0c;
+}
+button {
+    background-color: #ce1500;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 60px; /* Hier kannst du die Größe des Buttons anpassen */
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+.ausfuerungsbutton {
+    background-color: #000000;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 60px; /* Hier kannst du die Größe des Buttons anpassen */
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    justify-content: right;
+    align-items: right;
+}
+
+#output {
+    width: 48%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    height: 1475px; /* Höhe auf 100% gesetzt */
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    height: 100%; /* Höhe auf 100% gesetzt */
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px; /* Logo vergrößert */
+    float: right;
+}
+
+.title h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+    order: -1; /* Ändert die Reihenfolge, um den Titel links anzuzeigen */
+}

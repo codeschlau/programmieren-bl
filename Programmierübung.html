@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Programmieraufgaben - Kanton Baselland</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="logo.svg" alt="Kanton Baselland Logo" width="150">
+            </div>
+            <div class="title">
+                <h1>Programmieren Lernen</h1>
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <div id="code-editor">
+           
+            <h2>HTML:</h2>
+            <textarea id="html-code" rows="40" cols="60">
+<!-- Beispiel-HTML-Code -->
+<h2>Meine Überschrift</h2>
+<p>Dies ist ein Absatz.</p>
+    <ul>
+        <li>Element 1</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+    </ul>
+            </textarea>
+            <a id="download-html" download="code_editor_bl.html"><button onclick="downloadHTML()">HTML herunterladen</button></a>
+            <br>
+            <hr>
+            <br>
+            <br>
+            
+            <h2>CSS:</h2>
+            <textarea id="css-code" rows="40" cols="60">
+/* Beispiel-CSS-Code */
+h2 {
+    color: blue;
+    }
+p {
+    font-size: 18px;
+    }
+            </textarea>
+            <a id="download-css" download="code_editor_bl.css"><button onclick="downloadCSS()">CSS herunterladen</button></a>
+            <br>
+            <hr>
+            <br>
+
+            <!-- Für JavaScript-Code -->
+            <h2>JavaScript:</h2>
+            <textarea id="js-code" rows="40" cols="60">
+// Beispiel-JavaScript-Code
+window.onload = function() {
+    var greetingDiv = document.createElement("div");
+    greetingDiv.innerHTML = "Hallo, dies ist ein Beispiel für JavaScript im Browser!";
+    document.body.appendChild(greetingDiv);
+};
+            </textarea>
+            <a id="download-js" download="code_editor_bl.js"><button onclick="downloadJS()">JavaScript herunterladen</button></a>
+            <br>
+            <hr>
+            <br>
+            
+        </div>
+        <div id="output">
+            <button onclick="runCode()">Ausführen</button>
+            <br>
+            <h2>Ergebnis:</h2> 
+            <hr>
+            <p>
+                https://meine-test-seite.bl.ch
+            </p>
+            <hr>
+            <iframe id="result"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
