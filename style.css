@@ -6,11 +6,22 @@ body {
 }
 
 header {
-    background-color: #ffffff;
-    color: #ff1900;
+    background-color: #ffffff; /* Rot (Kanton Baselland) */
+    color: #000000;
     text-align: center;
-    padding: 20px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.logo {
+    float: right;
+    margin-right: 20px;
+    margin-top: -5px;
+}
+
+.head {
+    float: left;
+    margin-left: 20px;
+    margin-top: -5px;
 }
 
 h1 {
